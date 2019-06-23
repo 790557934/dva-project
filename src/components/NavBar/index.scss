@@ -1,0 +1,18 @@
+.nav {
+    height: 64px;
+    background: #f8f9fa;
+    position: relative;
+    .menu {
+        height: 100%;
+        line-height: 64px;
+        background: #f8f9fa;
+        .login {
+            position: absolute;
+            right: 68px;
+        }
+        .register {
+            position: absolute;
+            right: 0;
+        }
+    }
+}
